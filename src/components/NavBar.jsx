@@ -1,3 +1,5 @@
+import CartWidget from "./CartWidget"
+
 function NavBar(){
     const styles={
         display: 'inline-block',
@@ -9,6 +11,7 @@ function NavBar(){
                 <li style={styles}><a href="#">Home</a></li>
                 <li style={styles}><a href="#">Contact</a></li>
                 <li style={styles}><a href="#">FAQ</a></li>
+                <li style={styles}><CartWidget/></li>
             </ul>
         </nav>
     )
